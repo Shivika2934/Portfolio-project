@@ -1,0 +1,30 @@
+body {
+  background-color: antiquewhite;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+/*
+.playfair-display {
+  
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
