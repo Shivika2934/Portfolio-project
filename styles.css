@@ -3,13 +3,21 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 64px;
+}
 p {
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
 }
 .hero {
   background-color: #f9f7fe;
   text-align: center;
-  padding:160px 20px;
+  padding: 160px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -24,11 +32,38 @@ p {
   line-height: 2;
   color: rgba(39, 33, 66, 1);
 }
-.btn-branding{
-    background:#6c63ff;
-    border-radius: 4px;
-    color:white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+  background: none;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  color: #6c63ff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.desc {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  .desc {
+    padding: 0;
+    text-align: center;
+  }
+  h1{
+    font-size: 60px;
+  }
+  h2{
+    font-size: 42px;
+  }
+  .hero p{
+    font-size: 30px;
+  }
 }
