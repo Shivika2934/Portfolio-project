@@ -172,3 +172,10 @@ footer .work-inquiry {
   padding: 30px 120px;
   border-radius: 10px;
 }
+.footer-link{
+  color:#6c63ff
+}
+.social-link{
+  text-decoration: none;
+  color: #6c63ff;
+}
