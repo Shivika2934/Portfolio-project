@@ -1,203 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>👩🏻‍💻 Front-end deveoper- Shivika Mittal</title>
-    <meta
-      name="description"
-      content="Shivika is a front-end developer based in India"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/12cd639147.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html" title="Homepage"
-        ><img src="src/logo.png" alt="Shivika Logo" class="logo"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link active-page" href="index.html" title="home page"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html" title="about shivika"
-              >About</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="work.html" title="shivika's work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" title="contact shivika"
-              >Contact</a
-            >
-          </li>
-        </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivika Mittal Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/src/favicon.ico" />
+  <meta name="description" content="Shivika is a front-end developer based in India" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/12cd639147.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="hero">
+    <p>Hi I am</p>
+    <h1>Shivika Mittal</h1>
+    <h2 class="mb-4">Full-Stack Developer & AI/ML Enthusiast</h2>
+
+  </div>
+  <p class="m-5 text-center para">Here are my top projects that showcase my skills and expertise</p>
+  <div class="container">
+    <div class="row mb-2">
+      <div class="col d-none d-lg-block">
+        <img src="src/amazonReviews.jpg" alt="Review Analysis App" class="img-fluid" />
       </div>
-    </nav>
-    <div class="hero">
-      <p>Hi I am</p>
-      <h1>Shivika Mittal</h1>
-      <h2 class="mb-4">Front-end developer based in India</h2>
-      <div>
-        <a href="contact.html" class="btn btn-branding" title="Contact me"
-          >Contact Me</a
-        >
+      <div class="col">
+        <div class="desc">
+          <h3 class="mb-5">Product Review Sentiment Analysis Project</h3>
+          <p class="mb-4 text-muted text-justify">
+            <b>Tech Stack:</b> Python, Pandas, SQL, Data Visualization
+            <br />
+            The Product Review Sentiment Analysis project utilizes <b>natural language processing (NLP)</b> techniques
+            to
+            determine the sentiment of a given product review. It processes textual data to classify reviews as
+            <b>positive or negative</b>
+            and visually represents the sentiment strength using a bar indicator. This bar dynamically adjusts to show
+            the extent of
+            positivity or negativity, providing users with a clear understanding of customer sentiment. The project
+            enhances
+            insights into customer feedback, helping businesses analyze user opinions effectively.
+            <br />
+            <i class="fa-brands fa-github" style="color: #636cff;"></i>
+            <a href="https://github.com/Shivika2934/amazonReviews/settings" target="_blank" rel="noopener noreferrer">
+              GitHub Repository
+            </a>
+          </p>
+          <a href="https://huggingface.co/spaces/shivikamittal/ReviewAnalysis" class="btn btn-branding-outline"
+            target="_blank">View Project</a>
+        </div>
       </div>
     </div>
-    <p class="m-5">Featured Project which my best projects be choice to show</p>
-    <div class="container">
-      <div class="row mb-2">
-        <div class="col d-none d-lg-block">
-          <img src="src/Yogurt App.jpg" alt="Yogurt App" class="img-fluid" />
-        </div>
-        <div class="col">
-          <div class="desc">
-            <h2 class="mb-5">Yogurt Project</h2>
-            <p class="mb-4 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+    <div class="row mb-2">
+      <div class="col">
+        <div class="desc">
+          <h3 class="mb-5">Brain Tumor Detection Project</h2>
+            <p class="mb-4 text-muted text-justify">
+              <b>Tech Stack:</b> Python, TensorFlow, Keras, OpenCV
+              <br />
+              This project utilizes <b>AI/ML algorithms</b> for <b>image recognition and classification</b> to detect
+              whether an input
+              <b>MRI scan</b>
+              contains a brain tumor. It processes medical images using deep learning models, extracting patterns and
+              features to
+              classify scans as <b>tumor-positive or tumor-negative</b> with high accuracy. By leveraging <b>computer
+                vision</b>
+              techniques, the
+              system enhances early detection, aiding in faster and more reliable diagnosis for medical professionals.
+              <br />
+              <i class="fa-brands fa-github" style="color: #636cff;"></i>
+              <a href="https://github.com/Shivika2934/brain_tumor" target="_blank" rel="noopener noreferrer">
+                GitHub Repository
+              </a>
             </p>
-            <a href="work.html" class="btn btn-branding-outline"
-              >View Detailed Project</a
-            >
-          </div>
+            <a href="https://brain-tumor-detection-ooad.onrender.com/" class="btn btn-branding-outline">View Detailed
+              Project</a>
         </div>
       </div>
-      <div class="row mb-2">
-        <div class="col">
-          <div class="desc">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-4 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="work.html" class="btn btn-branding-outline"
-              >View Detailed Project</a
-            >
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img src="src/Weather App.png" alt="Weather App" class="img-fluid" />
-        </div>
+      <div class="col d-none d-lg-block">
+        <img src="/src/brain.jpg" alt="Brain Tumor detection App" class="img-fluid" />
       </div>
-      <div class="row mb-2">
-        <div class="col d-none d-lg-block">
-          <img
-            src="src/Dictionary App.png"
-            alt="Dictionary App"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col">
-          <div class="desc">
-            <h2 class="mb-5">Dictionary App</h2>
-            <p class="mb-4 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="work.html" class="btn btn-branding-outline"
-              >View Detailed Project</a
-            >
-          </div>
-        </div>
-      </div>
-      <footer>
-        <div class="work-inquiry justify-content-between mb-4 d-none d-md-flex">
-          <div>
-            <h4>Work Inquiry</h4>
-            <p class="text-muted">
-              Let's work together and i'll help you by all my best
-            </p>
-          </div>
-          <div>
-            <a href="contact.html" class="btn btn-branding" title="Contact Me"
-              >Let's Talk here</a
-            >
-          </div>
-        </div>
-        <a
-          href="mailto:shivika@gmail.com"
-          class="email-link mt-2"
-          title="Email Me"
-          >shivika@gmail.com</a
-        >
-        <div class="social mt-4 mb-4">
-          <a
-            href="https://www.instagram.com/shivika"
-            target="_blank"
-            title="Instagram"
-            ><i class="fa-brands fa-instagram icon"></i
-          ></a>
-          <a
-            href="https://www.twitter.com/shivika"
-            target="_blank"
-            title="Twitter"
-            ><i class="fa-brands fa-x-twitter icon"></i
-          ></a>
-          <a
-            href="https://www.github.com/shivika"
-            target="_blank"
-            title="GitHub"
-            ><i class="fa-brands fa-github icon"></i
-          ></a>
-        </div>
-        <p class="text-center mt-4">
-          ✌This project was coded by Shivika and it is
-          <a
-            href="https://github.com/Shivika2934/project-portfolio"
-            target="_blank" class="footer-link"
-            >open-sourced</a
-          >
-        </p>
-      </footer>
     </div>
-  </body>
+    <div class="row mb-2">
+      <div class="col d-none d-lg-block">
+        <img src="/src/weather.jpg" alt="Real time weather App" class="img-fluid" />
+      </div>
+      <div class="col">
+        <div class="desc">
+          <h3 class="mb-5">Real Time Weather Application</h3>
+          <p class="mb-4 text-muted text-justify">
+            <b>Tech Stack:</b> HTML, CSS, JavaScript, OpenWeatherMap API
+            <br />
+            The Weather Application allows users to search for a specific location and retrieve live weather
+            statistics.
+            It fetches <b>real-time data</b> from the <b>OpenWeatherMap API</b>, displaying key weather details such as
+            <b>temperature,
+              wind speed,
+              and overall weather conditions.</b> The application provides an intuitive and user-friendly interface,
+            ensuring
+            quick and
+            accurate weather updates for any searched location.
+            <br />
+            <i class="fa-brands fa-github" style="color: #636cff;"></i>
+            <a href="https://github.com/Shivika2934/react-weather-project" target="_blank" rel="noopener noreferrer">
+              GitHub Repository
+            </a>
+          </p>
+          <a href="https://weather-app-shivika2934.netlify.app/" class="btn btn-branding-outline">View Detailed
+            Project</a>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-5">
+
+      <p>Lets Talk here:</p> <a href="mailto:shivika2934@gmail.com" class="email-link mt-2"
+        title="Email Me">shivika2934@gmail.com</a>
+      <div class="social mt-4 mb-4">
+        <a href="https://www.linkedin.com/in/shivika-mittal" target="_blank" title="LinkedIn"><i
+            class="fa-brands fa-linkedin icon"></i></a>
+        <a href="https://github.com/shivika2934" target="_blank" title="GitHub"><i
+            class="fa-brands fa-github icon"></i></a>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
