@@ -136,6 +136,16 @@ p {
   text-align: center;
 }
 
+.equal-height-img {
+  height: 70%;
+  object-fit: cover;
+}
+
+.equal-height-row {
+  min-height: 250px;
+  /* or any height you prefer */
+}
+
 .desc p {
   font-size: 14px;
 }
